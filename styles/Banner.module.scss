@@ -1,3 +1,8 @@
+$text-purple: rgba(79, 70, 229, 1);
+$text-purple-dark: rgba(67, 56, 202, 1);
+$text-black: rgba(17, 24, 39, 1);
+$text-white-100: rgba(229, 231, 235, 1);
+
 .container {
   margin-bottom: 6rem;
   position: relative;
@@ -7,7 +12,7 @@
 .title {
   letter-spacing: -0.025em;
   font-weight: 800;
-  color: var(--text-black);
+  color: $text-black;
 
   font-size: 3rem /* 48px */;
   line-height: 1;
@@ -19,7 +24,7 @@
 
 .title2 {
   display: block;
-  color: var(--text-purple);
+  color: $text-purple-dark;
 }
 
 .subTitle {
@@ -27,7 +32,7 @@
   font-size: 1.5rem /* 24px */;
   line-height: 2rem /* 32px */;
 
-  color: var(--text-white-100);
+  color: $text-white-100;
 }
 
 .buttonWrapper {
@@ -35,7 +40,7 @@
 }
 
 .button {
-  background-color: var(--text-purple-dark);
+  background-color: $text-purple;
   cursor: pointer;
   color: white;
   outline: 0;
@@ -47,10 +52,10 @@
   line-height: 1.75rem /* 28px */;
   padding-left: 2.5rem /* 40px */;
   padding-right: 2.5rem /* 40px */;
-}
 
-.button:hover {
-  background-color: var(--text-purple-dark);
+  &:hover {
+    background-color: $text-purple-dark;
+  }
 }
 
 /** 
